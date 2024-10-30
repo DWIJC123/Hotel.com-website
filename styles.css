@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.search-section {
+    padding: 20px;
+    background-color: #e6f7ff;
+    text-align: center;
+}
+
+.search-container {
+    display: inline-flex;
+    gap: 10px;
+}
+
+input[type="text"], input[type="date"], input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.recent-searches {
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.recent-searches h2 {
+    margin-bottom: 10px;
+}
+
+.search-item {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.offers {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.offer-card {
+    background-color: #0071c2;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.offer-card button {
+    padding: 10px;
+    background-color: #fff;
+    color: #0071c2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.deals {
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.deal-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.deal-item {
+    text-align: center;
+}
+
+.deal-item img {
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.autumn-deals {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.getaway-plans {
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.getaway-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+#button{
+    background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px; 
+        font-size: 16px; 
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+}
+
+#button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

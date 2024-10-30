@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shop Travel and Cars</title>
+        <link rel="stylesheet" href="styles4.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Hotels.com</div>
+            <div class="nav-links">
+                <a href="Index.html">Home</a>
+                <a href="shopTravel.html">Shop Travel</a>
+                <a href="getTheApp.html">Get the app</a>
+                <a href="Support.html">Support</a>
+                <a href="signIn.html">Sign in</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <div class="search-box">
+                <h1>Search for Car Rentals</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="pick-up">Pick Up</label>
+                        <input type="text" id="drop-off" placeholder="Enter city, airport or address">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="drop-off">Same as pick-up</label>
+                        <input type="text" id="drop-off" placeholder="Enter city, airport or address">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pick-up-time">Pick Up Time</label>
+                        <input type="time" id="pick-up-time">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="drop-off-time">Drop Off Time</label>
+                        <input type="time" id="drop-off-time">
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox"> I have a discount code
+                        </label>
+                    </div>
+
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="partners-section">
+            <div class="partners">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Hertz_Car_Rental_logo.svg/1200px-Hertz_Car_Rental_logo.svg.png" alt="Hertz">
+                <img src="data:image/png;base64,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" alt="Budget">
+                <img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_396,q_75,w_704/v1/crm/rhodeisland/THRIFTY-CAR-RENTAL-07f896365056a36_07f8970c-5056-a36a-09cc0e69c5fe563a.jpg" alt="Thrifty">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Enterprise_Rent-A-Car_Logo.svg/1200px-Enterprise_Rent-A-Car_Logo.svg.png" alt="Enterprise">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Alamo_Rent_a_Car_%28logo%29.svg/2560px-Alamo_Rent_a_Car_%28logo%29.svg.png" alt="Alamo">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV8AAACQCAMAAACYophmAAAAwFBMVEUAAAD/////XwDx8fGtra22traKioqnp6fd3d1CQkL/WwDp6ekHBwdsbGyZmZn/f0L/UQD/6t6+vr7ExMT4+PheXl7/qYb/UAD/VgDOzs7a2tqEhITt7e0WFhZHR0d1dXVOTk4lJSWUlJQvLy83NzcqKiqfn59NTU3S0tJiYmIaGhpubm6FhYVWVlb/yLH/8uv/kGD/vqP/cjH/1MD/nXT/iVT/axz/3s//fD3/ZQf/7uX/bSX/rYv/lGz/wKT/rYl30GZFAAAL0ElEQVR4nN2da0PiOhCGuYMFFEuRcpOLiOh6W++u7Dn//1+dFsqltE3eaSaUnvfbskqSxzSZTGammWw69ZSTqfGadB9dZZLuQEy92VLASXdxqZTyPW/I6BpvSfdxqZTyfTfSsTyklO+jdHUwPqykO7lUKvk+fUunr32RdCdXSiXfZ/nmZp8n3cmV0sj3t3RzyxlnSXfSUwr5fraleHONx6R76Sl9fJ8+pItv7kiM32wa+b4AeO3fSfdyrdTx/ZLvbTnjO+lebpQ2vu8A3iOavinj+3SG4DW+n5Lu6Eap4vvnB9najmn6porvqw3hNX6S7uiOUsR3geHNtY/Ds7NSavieI4bDcvoey9FtqbTwXbSxyXs8noeV0sH38QecvA7eRdKd9QnmW+00zfKkV2+tdFsf9iaFZqfb19m7lV7PGujkPa7NLQvx7RZPb68zkaqNb4azQievq4fO3IXpOpvbp65+xJOYb6XQm0aT3dN0eNrsM98afF4Y+Nx11BCvDsXCoRXN1+oQ2G50dTvpVJngni++GvC6u1od3oVfWKCPR1kRXZkP7+J/51W9qMr46fXtxaAsDEu8OeHBuMpHDVUtnG9hrP7VrUJcxtbr4qdhU+E6soWLr3WlPiiqwvhahQHTt4+HRMZP54+Lvz+NRgy2jtr/CL+8xzQqikL4mrx/5jKA1fpz/vn479/3l5w7bWOxdWevOKLEZB0WqADfyoi5hVPf1/++2Ort7/P72dfPz8f3d86wXbBxya7wive2PPO4MO3zLbG34Of7ZW9lrKVCdSOZ2+GEfWSI/HzzD/wt+Pme8cAMwfsitrwn/CND5ONbYbAaAjoMX+NHfGXR0TAyRLt89fThIHyNFzFeq6ZlbHLt8NW0vx6Cr/0lOZZrWPcwbfk2NbVwAL4NseWQzZY1jU2uDd+Krhb0823LQiW7usYm15qvpa0F3XwNQxZqZunYtkGt+ba0taCZr/0hvQ76pW1scnl8NTru9PJtPEtDSYr6xibXim9fYws6+RoNsUfHVQJOyR2t+A41tqCRr/0CXBUncy5ea8lX659YG18Duinmd6iQtORb19mCJr5G+/0PgDepc/FaLl+9K5QWvob9AgVBJeOU3JHLV+8jpIOv/R2MkAw9ISd2Ll7L4av5Woqfr20sgkZZ5boSxDvTOjJEDt85+XdcwT/NzNew7YsQk9cxck8CH5JHxi+HL7o81E6GxWZl+xhWux1zNryRzX5Wvob9ERo7vby6LO19aHFd0yrI4XsJ/WC9GRVoVu2apXp0JAofX2fqvof6Gqo3q6bm/o9vOQApqpaBPDutkMXNP1f65mQU+qtMfA27/bEIt8ia68Vq4Ps4iWCdgGoZxEIsSuiuNS/fBhZmDr7OzP2+iIodud+2Ndz5WJvDlaRaBvA9N0G8q3EVWj5/oDJfB+5LJNxsxXf+NTefJxGsE6p76U/0KHhd5buTreGpxNewG8b7b4GXYc8CG2w2CdilUqxECbDuhtXI3/aUkZvgscLI8mZPja/hsG3/LF5FN2vVwN7c8v4HvkwUTB7AsblvsgSVEURO+7tMV2VyFYOv4ZC1je+vt0eZd+w0pLercCz4yH8l+HoevtKTwlD6HQJ1SwXfvyP5GkustrMefJw9//v6Kc/ANMNnxvJpu0H5iuwiHr5SkZdfkV7ajX21XeU+vp7fLhb/vJ4/YbmtnVFEdy+zBI/KTNTEgfjWofGC+nMeUJxc4XkU3Yy7IMFOyZGwkQPxDZ7rk1ZT/Pg3UedITZz7dKD1N9Ph4sKifhk70AOSHJsOxXfKRIZDXcarwltJWzx8gTSWm+Mo1ZbNz6TGJEF3slHx8EXOkddz6fccQMwBiNJlj4fvCOpM6xgIswYZydHw8EUXtKtS8vscYyAZsKnw8KXcUdXL3XySazHjTTfgVOHhSw3Pum6VmpXY2Zn9qkzCvx9bkDKSNcbDN1ZwbG06GpabXXrO/OXqdjRakpEz3QhDPisevmqRv5eTQoeyYsijwSQziyXYtAZNDB6+DDEYd62SCZbZUObLEq9nStpYiYkvU2bY5dAEVmV1vlX1VCDQ48rElzE7YSq14dT5qofs3WF4ufhmY1TREDUpvMpn4Kt88Y4elbj4cqeOPgjumzn4KhYamIB42fjyx6dOIyGx8MWvf0J0ieJl46sjwWYQ4Vvl4ZtXqF2D1xNj46slwHoauszx8FXYkwvyL2fnqynCOqxxJr6xk65kPnU9fDVlOJ4En0UuvjGnxIByoufjqy25u6uNbzxnMCmSjpGvtvIe++cNPr5xAvhooRycfLUFI+8B5uMbIwD1mkKXmS8Yxk6X/zjHyJe+qAVWK7F4+WrLZfK5Lzn5hsb3CSQMhgoRM19dS4TPl83KlzYlyHFI3Hx1JRrumvSsfCs0VyX1fpadb7apJ6Npx+jk5Eu12knGb1YH36ylpVLBjj+bky95RyauEBr4ZrNzHdvc9mKDkW8ML2WC9u9WHf6KFNsJzMc3lped4N3RxtfZN9gdlpuVj41vzFsiSpiXNr7ZbHXGe9zYzBsuvnErBt0R9jiNfLNu8g/jSryxgbn4xs4exK8vNPN1ZJk9poDbTSQ+E1+Fijb4Hqed71Lzwq8T9ZCDtW3Pw1fJ24cmUx+Ir6tqt1hqKU3ldUdY+CpWjEPdPIfju5SVr5qz+5j73noB5uCrmhkvTQzwdGC+G0neRxSqgTcmBr555dVKnPa2UVJ8l6p2ZnXK+Z+P74jQaoTkWFwlyteVNcfPqN6ip86XxUMCBVAmzjfrmnDgJPZGpMyXKcBaVu/G1THwhUfsneBU+XJddCMxlEfCFxuzdzmjyJevqA6QIXAsfCF71ItaVONrMYbSngragYd1GL5IBLEXmKTGdyRvB5d0jzsevoAv1vOrKPFlfsGYLJ3hePgCy6Jn06vw5S6kLqq9A7Z3IL5Ajpe3nyjw5a/WKanMwsT3tKD8al2Ar3dFFJ8vXirZhA/Q4j2OiW89k3mYIfZ2tAALTdl+gE2HMsFIFsZT8vF1dDJRSI8HYkVV7V/4StB96PGNUJQtwMrX1W0h3svOkbtGxfMxfCweg814EpUpYOebWWYIkldjKBnCW4Bi8sVLl6yMLjyj5Ndh+bp6uCe9gRt7+ZeSfxI/Fq8vf3BbLjqqUhdfV1etWROC3MQexfW1bSy+FpyOtb28xG9AI0MidPJdadorNwUFS/omvOusBx6L7whtZffyHb/Bj1oQ9fNdadrqlWbFTqVarfb7+bxbgmRuznrBUtUCrQ2hOHxxa2CXFJ4iFxX2dyi+u6oNBrGuvxTiH/CXO3Zi/l5EvYIk+MaUQvwOfize36nwDK7wsL8U8d34Asl8cUsr4E3At8XwPS49fLcvTqDyxT3q4+A+jE/90II86eG77QaVL/6Mh3lQ8ASjsLC/9PDdTi0iX/nLDdYKjyrD/zwhe1xq+O5UDKHxxU9hEVGRhOJjQbswLXx3V0YSX3z9jIzqJYS5B8L+0sJ318lK4ZvHs8WifVJ4KGsgfSslfO93m6PwxU+4Itc1HoW//xCkg6/fw0rgi/dLeM1DeAXn3iKeCr4Dv8se54vbVpKaL4SQKv85LhV898xSmC/uUR/IwqVxI8+/x6WA72Df6kf5EgLN5FezeMy9b487fr6DgIse5EtwHQApmYT6Yw9p4nsZNJtAviO4DagWKiHyp0f6rUT5xq9/hnvUwZR4QtD79qB93HzHofGJEF/cMw5XOyQEtm72uKPmOwnf1RG+hDMtXM+MsF9er1c1Jr46yu48RN09y/kWCAcCuNQs6ZlY73Fc8ZMmd0mNYbTJJOd7ij/KpDdXEmou9Hj5OgZMge/VM9NTUdyEnC/u1Am5sRCJUNO2yMzXUb/AkljWkxSw4KyNQiwXR6lpW2Hn66pSflDJPR1P5NVBGPmSar24IizB47wOvkvGZm9EL15xdzk0oRDiPJ+oeEmNu0uPhf0Yja8ry61HMLyBVsK70bBkVpQj4P+3EuRfWFa1UyzPTnv1h5Or8TZupzYYTx+Gvcms0KxaR/Jqw6PVf2+dALr1V4zfAAAAAElFTkSuQmCC" alt="SIXT">
+                <img src="https://logowik.com/content/uploads/images/dollar-car-rental3220.jpg" alt="Dollar">
+                <img src="https://1000logos.net/wp-content/uploads/2020/10/Avis-Logo.png" alt="Avis">
+            </div>
+        </section>
+
+        <section class="promo-section">
+            <div class="promo-content">
+                <div class="promo">
+                    <h2>Start planning you next getaway</h2>
+                    <div class="promo-grid">
+                        
+                        <div class="promo-item">
+                            <img src="#" alt="Getaway image 1">
+                            <p>Earn OneKeyCash on over 100,000 stays.</p>
+                        </div>
+
+                        <div class="promo-item">
+                            <img src="#" alt="Getaway image 2">
+                            <p>Exploring North Americas roads.</p>
+                        </div>
+
+                        <div class="promo-item">
+                            <img src="#" alt="Getaway image 3">
+                            <p>Top choices for car rentals in Miami</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

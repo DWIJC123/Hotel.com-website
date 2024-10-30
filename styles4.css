@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    color: #d00000;
+    font-weight: bold;
+}
+
+.nav-links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    color: #d00000;
+}
+
+.search-section {
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+    padding: 100px 20px;
+    color: #fff;
+}
+
+.search-box {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-group {
+    flex: 1 1 calc(50% - 20px);
+}
+
+input[type="text"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    flex: 1 1 100%;
+    background-color: #d00000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a80000;
+}
+
+.partners-section {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.partners img {
+    margin: 0 10px;
+    width: 250px;
+    height: 100px;
+}
+
+.promo-section {
+    padding: 40px 20px;
+}
+
+.promo-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.promo {
+    flex: 1 1 65%;
+}
+
+.promo-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.promo-item {
+    flex: 1 1 calc(33% - 20px);
+}
+
+.promo-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.app-promo {
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+.app-promo img {
+    margin-top: 20px;
+}
